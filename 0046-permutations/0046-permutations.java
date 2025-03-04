@@ -18,12 +18,10 @@ class Solution {
                     index++;
                 }
             }
-            
             List<List<Integer>> perms = permute(remainingNums);
             for (List<Integer> p : perms) {
                 p.add(n);
             }
-            
             res.addAll(perms);
         }
         
