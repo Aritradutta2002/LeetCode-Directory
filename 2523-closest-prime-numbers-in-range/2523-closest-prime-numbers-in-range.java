@@ -1,37 +1,34 @@
 class Solution {
-    public int[] closestPrimes(int left, int right) {
-        int prev = -1;
+    public static int[] closestPrimes(int left, int right) {
         int[] res = {-1, -1};
+        int minDiff = Integer.MAX_VALUE;
+        int prevPrime = -1;
+
         for (int i = left; i <= right; i++) {
             if (isPrime(i)) {
-                if (prev != -1 && (res[0] == -1 || i - prev < res[1] - res[0])) {
-                    res[0] = prev;
-                    res[1] = i;
-                    if (res[1] - res[0] <= 2) {
-                        break;
+                if (prevPrime != -1) {
+                    int currDiff = i - prevPrime;
+                    if (currDiff < minDiff) {
+                        minDiff = currDiff;
+                        res[0] = prevPrime;
+                        res[1] = i;
                     }
                 }
-                
-                prev = i;                
+                prevPrime = i;
             }
-            
-            // System.out.printf("i=%d prev=%d res=%s\n", i, prev, Arrays.toString(res));
         }
-        
+
         return res;
     }
     
-    private boolean isPrime(int v) {
-        if (v == 1) {
-            return false;
+    public static boolean isPrime(long n) {
+        if(n < 2) return false;
+        if(n == 2 || n == 3) return true;
+        if(n%2 == 0 || n%3 == 0) return false;
+        long sqrtN = (long)Math.sqrt(n)+1;
+        for(long i = 6L; i <= sqrtN; i += 6) {
+            if(n%(i-1) == 0 || n%(i+1) == 0) return false;
         }
-        
-        for (int i = 2; i <= Math.sqrt(v); i++) {
-            if (v % i == 0) {
-                return false;
-            }
-        }
-        
         return true;
     }
 }
