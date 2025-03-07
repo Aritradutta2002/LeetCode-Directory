@@ -1,40 +1,47 @@
 class Solution {
- public static int[] closestPrimes(int left, int right) {
-    int[] res = {-1, -1};
-    int minDiff = Integer.MAX_VALUE;
-    int prevPrime = -1;
+    private static final int MX = 1000000;
+    private static List<Integer> primes = new ArrayList<>();
 
-    boolean[] isPrime = sieveOfEratosthenes(right);
-
-    for (int i = left; i <= right; i++) {
-        if (isPrime[i]) {
-            if (prevPrime != -1) {
-                int currDiff = i - prevPrime;
-                if (currDiff < minDiff) {
-                    minDiff = currDiff;
-                    res[0] = prevPrime;
-                    res[1] = i;
-                }
-            }
-            prevPrime = i;
-        }
-    }
-    return res;
-}
-
-
-private static boolean[] sieveOfEratosthenes(int n) {
-    boolean[] isPrime = new boolean[n + 1];
-    Arrays.fill(isPrime, true);
-    isPrime[0] = isPrime[1] = false; 
-
-    for (int i = 2; i * i <= n; i++) {
-        if (isPrime[i]) {
-            for (int j = i * i; j <= n; j += i) {
-                isPrime[j] = false;
+    static {
+        boolean[] isPrime = new boolean[MX + 1];
+        Arrays.fill(isPrime, true);
+        for (int i = 2; i <= MX; i++) {
+            if (!isPrime[i]) continue;
+            primes.add(i);
+            for (int j = i; j <= MX / i; j++) {
+                isPrime[j * i] = false;
             }
         }
     }
-    return isPrime;
+
+    public int[] closestPrimes(int left, int right) {
+        int beg = lowerBound(left);
+        int end = lowerBound(right + 1) - 1;
+        if (end - beg < 1) return new int[]{-1, -1};
+        int min = Integer.MAX_VALUE;
+        int[] ans = new int[2];
+        while (end > beg) {
+            int d = primes.get(end) - primes.get(end - 1);
+            if (d <= min) {
+                min = d;
+                ans[0] = primes.get(end - 1);
+                ans[1] = primes.get(end);
+            }
+            end--;
+        }
+        return ans;
+    }
+
+    private int lowerBound(int target) {
+        int beg = -1, end = primes.size();
+        while (end - beg > 1) {
+            int mid = beg + (end - beg) / 2;
+            if (primes.get(mid) >= target) {
+                end = mid;
+            } else {
+                beg = mid;
+            }
+        }
+        return end;
     }
 }
