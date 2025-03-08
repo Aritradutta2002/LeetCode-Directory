@@ -20,8 +20,6 @@ class Solution {
 
             minimumRecolors = Math.min(minimumRecolors, whiteCount);
         }
-
-        return minimumRecolors;
-                   
+        return minimumRecolors;           
     }
 }
