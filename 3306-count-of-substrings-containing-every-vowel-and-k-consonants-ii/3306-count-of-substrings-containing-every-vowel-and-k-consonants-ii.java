@@ -1,34 +1,39 @@
 class Solution {
     public long countOfSubstrings(String word, int k) {
-        return f(word, k) - f(word, k + 1);
+        return atleast(k,word) - atleast(k+1,word);
+    }
+    private boolean isConsonant(char ch){
+        return (ch!='a' && ch!='e' && ch!='i' && ch!='o' && ch!='u');
     }
 
-    private long f(String word, int k) {
-        long ans = 0;
-        int l = 0, x = 0;
-        Map<Character, Integer> cnt = new HashMap<>(5);
-        for (char c : word.toCharArray()) {
-            if (vowel(c)) {
-                cnt.merge(c, 1, Integer::sum);
-            } else {
-                ++x;
+    private boolean isAllVowelsPresent(int freq[]){
+        return (freq['a'-'a']>0 && freq['e'-'a']>0 && freq['i'-'a']>0
+         && freq['o'-'a']>0 && freq['u'-'a']>0);
+    }
+    
+    private long atleast(int k, String words){
+        long count=0;
+        int curConsonant=0;
+        int freq[] = new int[26];
+        int n = words.length();
+        int left=0;
+        for(int right=0;right<n;right++){
+            char ch = words.charAt(right);
+            if(isConsonant(ch)){
+                curConsonant++;
             }
-            while (x >= k && cnt.size() == 5) {
-                char d = word.charAt(l++);
-                if (vowel(d)) {
-                    if (cnt.merge(d, -1, Integer::sum) == 0) {
-                        cnt.remove(d);
-                    }
-                } else {
-                    --x;
+            freq[ch-'a']++;
+
+            while(curConsonant>=k && isAllVowelsPresent(freq)){
+                count += (n - right);
+                char c = words.charAt(left);
+                if(isConsonant(c)){
+                    curConsonant--;
                 }
+                freq[c-'a']--;
+                left++;
             }
-            ans += l;
         }
-        return ans;
-    }
-
-    private boolean vowel(char c) {
-        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
+        return count;
     }
 }
