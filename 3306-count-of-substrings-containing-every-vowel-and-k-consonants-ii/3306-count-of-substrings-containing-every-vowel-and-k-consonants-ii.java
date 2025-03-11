@@ -1,37 +1,63 @@
+import java.util.*;
+
 class Solution {
+    private boolean isVowel(char c) {
+        return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
+    }
+
+    private void findNextConsonant(String word, int[] nextConsonant) {
+        int n = word.length();
+        int next = n;
+        for (int i = n - 1; i >= 0; --i) {
+            nextConsonant[i] = next;
+            if (!isVowel(word.charAt(i)))
+                next = i;
+        }
+    }
+
     public long countOfSubstrings(String word, int k) {
-        return atleast(k,word) - atleast(k+1,word);
-    }
-    private boolean isConsonant(char ch){
-        return (ch!='a' && ch!='e' && ch!='i' && ch!='o' && ch!='u');
-    }
+        int n = word.length();
+        int[] nextConsonant = new int[n];
+        findNextConsonant(word, nextConsonant);
 
-    private boolean isAllVowelsPresent(int freq[]){
-        return (freq['a'-'a']>0 && freq['e'-'a']>0 && freq['i'-'a']>0
-         && freq['o'-'a']>0 && freq['u'-'a']>0);
-    }
-    
-    private long atleast(int k, String words){
-        long count=0;
-        int curConsonant=0;
-        int freq[] = new int[26];
-        int n = words.length();
-        int left=0;
-        for(int right=0;right<n;right++){
-            char ch = words.charAt(right);
-            if(isConsonant(ch)){
-                curConsonant++;
-            }
-            freq[ch-'a']++;
+        long count = 0;
+        int consonants = 0;
+        Map<Character, Integer> vowelFreq = new HashMap<>();
+        int left = 0;
+        int right = 0;
+        int prev = -1;
 
-            while(curConsonant>=k && isAllVowelsPresent(freq)){
-                count += (n - right);
-                char c = words.charAt(left);
-                if(isConsonant(c)){
-                    curConsonant--;
+        while (right < n) {
+            if (prev != right) {
+                if (isVowel(word.charAt(right))) {
+                    vowelFreq.put(word.charAt(right), vowelFreq.getOrDefault(word.charAt(right), 0) + 1);
+                } else {
+                    consonants++;
                 }
-                freq[c-'a']--;
-                left++;
+                prev = right;
+            }
+
+            if (right >= (5 + k - 1)) {
+                if (vowelFreq.size() == 5 && consonants == k) {
+                    count += nextConsonant[right] - right;
+                }
+
+                // Move left ptr to right: Shrink window
+                if ((vowelFreq.size() == 5 && consonants == k) || (consonants > k)) {
+                    if (isVowel(word.charAt(left))) {
+                        vowelFreq.put(word.charAt(left), vowelFreq.get(word.charAt(left)) - 1);
+                        if (vowelFreq.get(word.charAt(left)) == 0) {
+                            vowelFreq.remove(word.charAt(left));
+                        }
+                    } else {
+                        consonants--;
+                    }
+                    left++;
+                } else {
+                    right++;
+                }
+            } else {
+                right++;
             }
         }
         return count;
