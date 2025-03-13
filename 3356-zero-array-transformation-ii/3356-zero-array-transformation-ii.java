@@ -1,52 +1,31 @@
 class Solution {
     public int minZeroArray(int[] nums, int[][] queries) {
-         int n = nums.length;
-    int[] diff = new int[n + 1];
-    diff[0] = nums[0];
-    for (int i = 1; i < n; i++) {
-        diff[i] = nums[i] - nums[i - 1];
-    }
+        int n = nums.length;
+        int[] differenceArray = new int[n + 1];
+        int sum = 0;
+        int k = 0;
 
-    long total = 0;
-    for (int x : nums) {
-        total += x;
-    }
-    if (total == 0) {
-        return 0;
-    }
+        for (int index = 0; index < n; index++) {
+            while (sum + differenceArray[index] < nums[index]) {
+                k++;
 
-    for (int k = 0; k < queries.length; k++) {
-        int l = queries[k][0];
-        int r = queries[k][1];
-        int val = queries[k][2];
+                if (k > queries.length) {
+                    return -1;
+                }
 
-        diff[l] -= val;
-        if (r + 1 < n) {
-            diff[r + 1] += val;
-        }
+                int left = queries[k - 1][0];
+                int right = queries[k - 1][1];
+                int val = queries[k - 1][2];
 
-        if (l == 0) {
-            total -= val * (r - l + 1);
-        } else {
-            total -= val * (r - l + 1);
-        }
-
-        if (total <= 0) {
-            boolean isZeroArray = true;
-            int current = 0;
-            for (int i = 0; i < n; i++) {
-                current += diff[i];
-                if (current != 0) {
-                    isZeroArray = false;
-                    break;
+                if (right >= index) {
+                    differenceArray[Math.max(left, index)] += val;
+                    differenceArray[right + 1] -= val;
                 }
             }
-            if (isZeroArray) {
-                return k + 1;
-            }
-        }
-    }
 
-    return -1;
+            sum += differenceArray[index];
+        }
+
+        return k;
     }
 }
