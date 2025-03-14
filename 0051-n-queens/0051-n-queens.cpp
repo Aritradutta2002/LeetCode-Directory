@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<string>> solveNQueens(int n) {
-         vector<vector<int>> placements = NQueensInt(n);
+        vector<vector<int>> placements = NQueensInt(n);
         return convertToBoard(n, placements);
     }
 
