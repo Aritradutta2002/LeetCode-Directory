@@ -1,41 +1,29 @@
 class Solution {
-    public static int maximumCandies(int[] candies, long k) {
-        if (candies == null || candies.length == 0) {
-            return 0;
-        }
-        long sum = candies[0];
-        int maxCount = candies[0];
-        int n = candies.length;
-        for (int i = 1; i < n; i++) {
-            maxCount = Math.max(maxCount, candies[i]);
-            sum += candies[i];
-        }
-
-        if (sum < k) {
-            return 0;
-        }
-
-        int left = 1;
-        int right = maxCount;
-        int result = 0;
-
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (canDistribute(candies, mid, k)) {
-                result = mid;
-                left = mid + 1;
-            } else {
-                right = mid - 1;
-            }
-        }
-        return result;
-    }
-
-    public static boolean canDistribute(int[] candies, int mid, long k) {
+   private boolean canAssign(long mid, int[] candies, long k) {
         long count = 0;
-        for (int candy : candies) {
-            count += candy / mid;
+        for (int ele : candies) {
+            if (ele >= mid)
+                count += ele / mid;
         }
         return count >= k;
+    }
+
+    public int maximumCandies(int[] candies, long k) {
+        long low = 1;
+        long high = Arrays.stream(candies).max().getAsInt();
+        long mid;
+        long max_candies = 0;
+
+        
+        while (low <= high) {
+            mid = low + (high - low) / 2;
+            if (canAssign(mid, candies, k)) {
+                max_candies = Math.max(max_candies, mid);
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        return (int) max_candies;
     }
 }
