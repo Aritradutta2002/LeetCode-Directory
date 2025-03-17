@@ -1,8 +1,8 @@
 class Solution {
     public boolean divideArray(int[] nums) {
-        long[] arr = new long[1501];
-        arr[0] = 0;
+        long[] arr = new long[501];
         
+        arr[0] = 0;
         for(var ele : nums){
             arr[ele]++;
         }
