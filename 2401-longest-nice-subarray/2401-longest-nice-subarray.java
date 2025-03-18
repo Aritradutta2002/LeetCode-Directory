@@ -1,16 +1,27 @@
 class Solution {
     public int longestNiceSubarray(int[] nums) {
         int n = nums.length;
-        int longestSubarray = 0;
-        int currSubarray = 0;
+        int left = 0;
+        int right = 0;
+        
+        int maxWindowSize = 0;
+        int xorSum = 0;
+        int currSum = 0;
 
-        for(int j = 0, i = 0; i < n; i++){
-            while( (currSubarray & nums[i]) != 0){
-                currSubarray ^= nums[j++];
+        while (right < n) {
+            currSum += nums[right];
+            xorSum ^= nums[right];
+
+            while (xorSum != currSum) {
+                currSum -= nums[left];
+                xorSum ^= nums[left];
+                left++;
             }
-           longestSubarray = Math.max(longestSubarray, (i - j) + 1);
-           currSubarray |= nums[i]; 
+
+            maxWindowSize = Math.max(maxWindowSize, right - left + 1);
+            right++;
         }
-        return longestSubarray;
+
+        return maxWindowSize;
     }
 }
