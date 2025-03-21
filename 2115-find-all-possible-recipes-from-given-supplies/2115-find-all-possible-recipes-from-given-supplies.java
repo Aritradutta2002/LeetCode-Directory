@@ -6,7 +6,6 @@ class Solution {
         Map<String, Integer> indegree = new HashMap<>();
         Set<String> supply = new HashSet<>(Arrays.asList(supplies));
 
-        // Initialize adjacency list and indegree map
         for (int i = 0; i < recipes.length; i++) {
             indegree.put(recipes[i], 0);
             for (String ingredient : ingredients.get(i)) {
@@ -17,7 +16,6 @@ class Solution {
             }
         }
 
-        // Initialize queue with recipes that have 0 indegree
         Queue<String> q = new LinkedList<>();
         for (Map.Entry<String, Integer> entry : indegree.entrySet()) {
             if (entry.getValue() == 0) {
