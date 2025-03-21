@@ -23,7 +23,6 @@ class Solution {
             }
         }
 
-        // Perform topological sort using Kahn's algorithm
         List<String> res = new ArrayList<>();
         while (!q.isEmpty()) {
             String currRecipe = q.poll();
