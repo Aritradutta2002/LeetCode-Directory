@@ -1,30 +1,25 @@
 class Solution {
-     public static List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
-        permuteRecursion(0, nums, ans);
-        return ans;
+    public static List<List<Integer>> permute(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>(); // to store returning the result
+        List<Integer> permutation = new ArrayList<>(); // to store one of the permutation after each recursive call
+        Set<Integer> visited = new HashSet<>(); // to track if the element is already added to the permutation list
+        helper(nums, permutation, res, visited, 0); // permuteBackTrack helper function
+        return res;
     }
 
-    private static void permuteRecursion(int index, int[] nums, List<List<Integer>> ans) {
-        if(index == nums.length){
-            List<Integer> list = new ArrayList<>();
-            for(int i = 0; i < nums.length; i++){
-                list.add(nums[i]);
-            }
-            ans.add(new ArrayList<>(list));
+    public static void helper(int[] nums, List<Integer> permutation, List<List<Integer>> res, Set<Integer> visited, int currentIndex) {
+        if (visited.size() == nums.length) {
+            res.add(new ArrayList<>(permutation));
             return;
         }
-
-        for(int i = index; i < nums.length; i++){
-            swap(i, index, nums);
-            permuteRecursion(index + 1, nums, ans);
-            swap(i, index, nums);
+        for (int i = currentIndex; i < nums.length; i++) {
+            if(!visited.contains(nums[i])) {
+                permutation.add(nums[i]);
+                visited.add(nums[i]);
+                helper(nums, permutation, res, visited, currentIndex);
+                permutation.removeLast();
+                visited.remove(nums[i]);
+            }
         }
-    }
-
-    private static void swap(int i, int j, int[] nums) {
-        int t = nums[i];
-        nums[i] = nums[j];
-        nums[j] = t;
     }
 }
