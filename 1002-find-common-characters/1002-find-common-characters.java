@@ -7,19 +7,29 @@ class Solution {
             return new ArrayList<>();
         }
 
-        List<String> commonChars = new ArrayList<>();
+        int[] minFreq = new int[26];
         for (char c : words[0].toCharArray()) {
-            commonChars.add(String.valueOf(c));
+            minFreq[c - 'a']++;
         }
 
         for (int i = 1; i < words.length; i++) {
-            List<String> currentChars = new ArrayList<>();
+            int[] currentFreq = new int[26];
             for (char c : words[i].toCharArray()) {
-                currentChars.add(String.valueOf(c));
+                currentFreq[c - 'a']++;
             }
-            commonChars.retainAll(currentChars);
+
+            for (int j = 0; j < 26; j++) {
+                minFreq[j] = Math.min(minFreq[j], currentFreq[j]);
+            }
         }
 
-        return commonChars;
+        List<String> result = new ArrayList<>();
+        for (int i = 0; i < 26; i++) {
+            for (int j = 0; j < minFreq[i]; j++) {
+                result.add(String.valueOf((char) (i + 'a')));
+            }
+        }
+
+        return result;
     }
 }
