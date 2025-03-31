@@ -11,7 +11,6 @@ class Solution {
         for (int i = 0; i < k - 1; ++i) {
             ans += pairWeights[n - 2 - i] - pairWeights[i];
         }
-
         return ans;
     }
 }
