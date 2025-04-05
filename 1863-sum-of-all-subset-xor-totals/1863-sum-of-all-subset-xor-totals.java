@@ -9,9 +9,9 @@ class Solution {
             return sum;
         }
 
-        int pickingXor = solveBacktrack(nums, index + 1, sum ^ nums[index]);
-        int NotPickingXor = solveBacktrack(nums, index + 1, sum);
+        int pickingElementXor = solveBacktrack(nums, index + 1, sum ^ nums[index]);
+        int NotpickingElementXor = solveBacktrack(nums, index + 1, sum);
 
-        return (pickingXor + NotPickingXor);
+        return (pickingElementXor + NotpickingElementXor);
     }
 }
