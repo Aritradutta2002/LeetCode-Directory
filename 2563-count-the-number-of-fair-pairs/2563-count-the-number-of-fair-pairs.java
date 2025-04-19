@@ -1,22 +1,22 @@
 class Solution {
-     public static long countFairPairs(int[] nums, int lower, int upper) {
-        Arrays.sort(nums);
-        long countUpper = countPairsAtMost(nums, upper);
-        long countLower = countPairsAtMost(nums, lower - 1);
-        return countUpper - countLower;
+    public static long countFairPairs(int[] nums, int lower, int upper) {
+        Arrays.sort(nums); // Sort the array first
+        return countPairsLessThanOrEqual(nums, upper) - countPairsLessThanOrEqual(nums, lower - 1);
     }
     
-    private static long countPairsAtMost(int[] nums, int x) {
+    private static long countPairsLessThanOrEqual(int[] nums, int value) {
         long count = 0;
-        int i = 0, j = nums.length - 1;
-        while(i < j) {
-            if(nums[i] + nums[j] <= x) {
-                count += j - i;
-                i++;
+        int left = 0, right = nums.length - 1;
+        
+        while (left < right) {
+            if (nums[left] + nums[right] <= value) {
+                count += right - left;
+                left++;
             } else {
-                j--;
+                right--;
             }
         }
+        
         return count;
     }
 }
