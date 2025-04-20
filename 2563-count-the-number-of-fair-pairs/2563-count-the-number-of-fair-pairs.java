@@ -1,22 +1,45 @@
+import java.util.Arrays;
+
 class Solution {
     public static long countFairPairs(int[] nums, int lower, int upper) {
-        Arrays.sort(nums); // Sort the array first
-        return countPairsLessThanOrEqual(nums, upper) - countPairsLessThanOrEqual(nums, lower - 1);
+        Arrays.sort(nums);
+        int N = nums.length;
+        long ans = 0;
+        for (int i = 0; i < N - 1; i++) {
+            int lb = lowerBound(nums, i + 1, N, lower - nums[i]);
+            int ub = upperBound(nums, i + 1, N, upper - nums[i]);
+            ans += (ub - lb);
+        }
+        return ans;
     }
     
-    private static long countPairsLessThanOrEqual(int[] nums, int value) {
-        long count = 0;
-        int left = 0, right = nums.length - 1;
-        
-        while (left < right) {
-            if (nums[left] + nums[right] <= value) {
-                count += right - left;
-                left++;
+    public static int lowerBound(int[] nums, int start, int N, int target) {
+        int low = start, high = N - 1;
+        int ans = N;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (nums[mid] >= target) {
+                ans = mid;
+                high = mid - 1;
             } else {
-                right--;
+                low = mid + 1;
             }
         }
-        
-        return count;
+        return ans;
+    }
+    
+    public static int upperBound(int[] nums, int start, int N, int target) {
+        int low = start, high = N - 1;
+        int ans = N;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (nums[mid] > target) {
+                ans = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return ans;
     }
 }
