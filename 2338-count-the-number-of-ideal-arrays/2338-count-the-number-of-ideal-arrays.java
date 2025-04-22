@@ -1,47 +1,56 @@
 class Solution {
-    private static final int MOD = (int) 1e9 + 7;
-    private int[][] memo;
-    private int[][] combinations;
-    private int numElements;
-    private int maxVal;
+    static int MOD = 1000000007;
+    static int MAX_N = 10010;
+    static int MAX_P = 15;
+    static int[][] c = new int[MAX_N + MAX_P][MAX_P + 1];
+    static int[] sieve = new int[MAX_N];
+    static List<Integer>[] ps = new List[MAX_N];
 
-    public int idealArrays(int n, int maxValue) {
-        numElements = n;
-        maxVal = maxValue;
-        memo = new int[maxVal + 1][16];
-        for (int i = 0; i <= maxVal; i++) {
-            for (int j = 0; j < 16; j++) {
-                memo[i][j] = -1;
-            }
+    public Solution() {
+        if (c[0][0] == 1) {
+            return;
         }
-        combinations = new int[n][16];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j <= i && j < 16; j++) {
-                if (j == 0) {
-                    combinations[i][j] = 1;
-                } else {
-                    combinations[i][j] = (combinations[i - 1][j] + combinations[i - 1][j - 1]) % MOD;
+        for (int i = 0; i < MAX_N; i++) {
+            ps[i] = new ArrayList<>();
+        }
+        for (int i = 2; i < MAX_N; i++) {
+            if (sieve[i] == 0) {
+                for (int j = i; j < MAX_N; j += i) {
+                    if (sieve[j] == 0) {
+                        sieve[j] = i;
+                    }
                 }
             }
         }
-        int totalCount = 0;
-        for (int startVal = 1; startVal <= maxVal; startVal++) {
-            totalCount = (totalCount + countArrays(startVal, 1)) % MOD;
-        }
-        return totalCount;
-    }
-
-    private int countArrays(int currentVal, int currentLength) {
-        if (memo[currentVal][currentLength] != -1) {
-            return memo[currentVal][currentLength];
-        }
-        int ways = combinations[numElements - 1][currentLength - 1];
-        if (currentLength < numElements) {
-            for (int multiple = 2; currentVal * multiple <= maxVal; multiple++) {
-                ways = (ways + countArrays(currentVal * multiple, currentLength + 1)) % MOD;
+        for (int i = 2; i < MAX_N; i++) {
+            int x = i;
+            while (x > 1) {
+                int p = sieve[x], cnt = 0;
+                while (x % p == 0) {
+                    x /= p;
+                    cnt++;
+                }
+                ps[i].add(cnt);
             }
         }
-        memo[currentVal][currentLength] = ways;
-        return ways;
+        c[0][0] = 1;
+        for (int i = 1; i < MAX_N + MAX_P; i++) {
+            c[i][0] = 1;
+            for (int j = 1; j <= Math.min(i, MAX_P); j++) {
+                c[i][j] = (c[i - 1][j] + c[i - 1][j - 1]) % MOD;
+            }
+        }
+    }
+
+    public int idealArrays(int n, int maxValue) {
+        long ans = 0;
+        for (int x = 1; x <= maxValue; x++) {
+            long mul = 1;
+            for (int p : ps[x]) {
+                mul = (mul * c[n + p - 1][p]) % MOD;
+            }
+            ans = (ans + mul) % MOD;
+        }
+        return (int) ans;
     }
 }
