@@ -1,23 +1,12 @@
 class Solution {
-    public int findNumbers(int[] nums) {
+   public static int findNumbers(int[] nums) {
         int count = 0;
         for(int i : nums){
-            if(isEven(i)){
+            int len = (int) Math.log10(i) + 1;
+            if(len % 2 == 0){
                 count++;
             }
         }
         return count;
-    }
-
-    boolean isEven(int num){
-        boolean isEven = false;
-        while(num > 0){
-            int digit = num % 10;
-            if(digit % 2 != 0){
-                return false;
-            }
-            num /= 10;
-        }
-        return true;
     }
 }
