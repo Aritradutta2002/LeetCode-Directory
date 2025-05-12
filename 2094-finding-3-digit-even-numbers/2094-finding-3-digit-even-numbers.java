@@ -1,10 +1,10 @@
 class Solution {
     public int[] findEvenNumbers(int[] digits) {
-        List<Integer> evenNumbers = new ArrayList<>();
-
+              List<Integer> evenNumbers = new ArrayList<>();
+        
         int n = digits.length;
         if (n < 3) {
-            return new int[0];
+            return new int[0]; 
         }
 
         for (int i = 0; i < n; i++) {
@@ -13,11 +13,12 @@ class Solution {
             }
             for (int j = 0; j < n; j++) {
                 if (i == j) {
-                    continue;
+                    continue; 
                 }
+
                 for (int k = 0; k < n; k++) {
                     if (i == k || j == k) {
-                        continue;
+                        continue; 
                     }
                     if (digits[k] % 2 != 0) {
                         continue;
@@ -28,11 +29,10 @@ class Solution {
             }
         }
 
-        return evenNumbers.stream()
-                .distinct()
-                .sorted()
-                .mapToInt(Integer::intValue)
-                .toArray();
-
+        Set<Integer> uniqueNumbers = new HashSet<>(evenNumbers);
+        List<Integer> resultList = new ArrayList<>(uniqueNumbers);
+        Collections.sort(resultList);
+        int[] result = resultList.stream().mapToInt(Integer::intValue).toArray();
+        return result;
     }
 }
