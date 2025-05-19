@@ -6,7 +6,7 @@ class Solution {
         int b = nums[1];
         int c = nums[2];
 
-        if((a + b) < c || (b + c) < a || (a + c) < b){
+        if((a + b) <= c || (b + c) <= a || (a + c) <= b){
             return "none";
         }
 
