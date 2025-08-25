@@ -20,7 +20,7 @@ class Solution {
                     col++;  // go right
                 }
             } else {
-                // ODD diagonal: Go DOWN-LEFT ↙️
+                // ODD diagonal: Go DOWN-LEFT 
                 // Start from top-right of diagonal
                 int col = (d < n) ? d : n - 1;
                 int row = (d < n) ? 0 : d - n + 1;
