@@ -8,7 +8,7 @@ class Solution {
         for (int d = 0; d < m + n - 1; d++) {
             
             if (d % 2 == 0) {
-                // EVEN diagonal: Go UP-RIGHT ↗️
+                // EVEN diagonal: Go UP-RIGHT 
                 // Start from bottom-left of diagonal
                 int row = (d < m) ? d : m - 1;
                 int col = (d < m) ? 0 : d - m + 1;
