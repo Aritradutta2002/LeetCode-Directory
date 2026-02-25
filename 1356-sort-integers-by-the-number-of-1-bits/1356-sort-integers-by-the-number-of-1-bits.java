@@ -1,13 +1,18 @@
 class Solution {
     public int[] sortByBits(int[] arr) {
-        for (int i = 0; i < arr.length; i++)
-            arr[i] += Integer.bitCount(arr[i]) * 100001; 
+        TreeMap<Integer, List<Integer>> map = new TreeMap<>();
 
-        Arrays.sort(arr);
+        for (int num : arr) {
+            int bits = Integer.bitCount(num);
+            map.computeIfAbsent(bits, k -> new ArrayList<>()).add(num);
+        }
 
-        for (int i = 0; i < arr.length; i++)
-            arr[i] %= 100001; 
-
-        return arr;
+        int idx = 0;
+        int[] result = new int[arr.length];
+        for (List<Integer> group : map.values()) {   
+            Collections.sort(group);                  
+            for (int num : group) result[idx++] = num;
+        }
+        return result;
     }
 }
