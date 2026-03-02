@@ -1,19 +1,20 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
-        int[] ans = new int[2];
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i : nums) {
-            map.put(i, map.getOrDefault(i, 0) + 1);
+        int firstElement = 0;
+        int secondElement = 0;
+        int xor = 0;
+        for(int num : nums){
+            xor ^= num;
         }
-
-        int i = 0;
-        for (int key : map.keySet()) {
-            if (map.get(key) == 1) {
-                ans[i++] = key;
+        int differentiatingBit = (xor & -xor);
+        for(int num : nums){
+            if((num & differentiatingBit) != 0){
+                firstElement ^= num;
             }
         }
 
-        return ans;
+        secondElement = (firstElement ^ xor);
 
+        return new int[] {firstElement, secondElement};
     }
 }
