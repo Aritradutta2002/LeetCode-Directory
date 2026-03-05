@@ -1,6 +1,6 @@
 class Solution {
     public int minOperations(String s) {
-         int n = s.length();
+        int n = s.length();
         int cost0 = 0; 
 
         for (int i = 0; i < n; i++) {
@@ -8,7 +8,6 @@ class Solution {
             if (s.charAt(i) != expected)
                 cost0++;
         }
-
         return Math.min(cost0, n - cost0);
     }
 }
