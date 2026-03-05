@@ -1,28 +1,26 @@
 class Solution {
-    private static final int INF = (int) 1e9;
-
     public int coinChange(int[] coins, int amount) {
         int n = coins.length;
-        int[][] dp = new int[n][amount + 1];
+        if(n == 0) return -1;
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, -1);
 
-        for (int t = 0; t <= amount; t++) {
-            if (t % coins[0] == 0)
-                dp[0][t] = t / coins[0];
-            else
-                dp[0][t] = INF;
-        }
+        return solve(n, coins, amount, dp);
+    }
 
-        for (int i = 1; i < n; i++) {
-            for (int t = 0; t <= amount; t++) {
-                int notTake = dp[i - 1][t];
-                int take = INF;
-                if (coins[i] <= t && dp[i][t - coins[i]] != INF) {
-                    take = 1 + dp[i][t - coins[i]];
+    public int solve(int n, int[] coins, int amount, int[] dp){
+        dp[0] = 0;
+        for(int i = 1; i <= amount; i++){
+            for(int j = 0; j < coins.length; j++){
+                if(i >= coins[j] && dp[i - coins[j]] != -1){
+                    if(dp[i] == -1){
+                        dp[i] = dp[i - coins[j]] + 1;
+                    } else{
+                        dp[i] = Math.min(dp[i], dp[i - coins[j]] + 1);
+                    }
                 }
-                dp[i][t] = Math.min(notTake, take);
             }
         }
-
-        return dp[n - 1][amount] >= INF ? -1 : dp[n - 1][amount];
+        return dp[amount];
     }
 }
