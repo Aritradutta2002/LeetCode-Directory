@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0020-valid-parentheses/) | Easy |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
+| [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
