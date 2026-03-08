@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1232-check-if-it-is-a-straight-line](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
+| [1980-find-unique-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2170-minimum-operations-to-make-the-array-alternating/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -40,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1980-find-unique-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2170-minimum-operations-to-make-the-array-alternating/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
@@ -53,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
+| [1980-find-unique-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1980-find-unique-binary-string/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -90,4 +93,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0761-special-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0761-special-binary-string/) | Hard |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1980-find-unique-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1980-find-unique-binary-string/) | Medium |
 <!---LeetCode Topics End-->
