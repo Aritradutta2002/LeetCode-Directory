@@ -16,12 +16,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2170-minimum-operations-to-make-the-array-alternating/) | Medium |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2170-minimum-operations-to-make-the-array-alternating/) | Medium |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Matrix
 | Problem Name | Difficulty |
@@ -38,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0070-climbing-stairs/) | Easy |
 | [0509-fibonacci-number](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0509-fibonacci-number/) | Easy |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -119,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -132,4 +136,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 <!---LeetCode Topics End-->
