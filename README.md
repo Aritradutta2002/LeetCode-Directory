@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0152-maximum-product-subarray](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0189-rotate-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0189-rotate-array/) | Medium |
 | [0198-house-robber](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0198-house-robber/) | Medium |
@@ -104,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0761-special-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0761-special-binary-string/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
@@ -125,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Union-Find
