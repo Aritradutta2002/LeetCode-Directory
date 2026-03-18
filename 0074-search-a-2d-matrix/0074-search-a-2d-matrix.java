@@ -8,7 +8,7 @@ class Solution {
 
         while(low <= high){
             int mid = low + (high - low)/2;
-            int midValue = matrix[mid/col][mid % ];
+            int midValue = matrix[mid/col][mid % col];
             if(midValue == target) return true;
             else if(midValue > target) high = mid - 1;
             else low = mid + 1;
