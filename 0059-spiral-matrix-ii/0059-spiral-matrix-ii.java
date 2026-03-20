@@ -1,21 +1,36 @@
 class Solution {
     public int[][] generateMatrix(int n) {
-        int[][] result = new int[n][n];
-        int cnt = 1;
-        for (int layer = 0; layer < (n + 1) / 2; layer++) {
-            for (int ptr = layer; ptr < n - layer; ptr++) {
-                result[layer][ptr] = cnt++;
+        int[][] ans = new int[n][n];
+        int left = 0, right = n - 1;
+        int top = 0, bottom = n - 1;
+        int val = 1;
+
+        while (left <= right && top <= bottom) {
+            for (int c = left; c <= right; c++) {
+                ans[top][c] = val++;
             }
-            for (int ptr = layer + 1; ptr < n - layer; ptr++) {
-                result[ptr][n - layer - 1] = cnt++;
+            top++;
+
+            for (int r = top; r <= bottom; r++) {
+                ans[r][right] = val++;
             }
-            for (int ptr = layer + 1; ptr < n - layer; ptr++) {
-                result[n - layer - 1][n - ptr - 1] = cnt++;
+            right--;
+
+            if (top <= bottom) {
+                for (int c = right; c >= left; c--) {
+                    ans[bottom][c] = val++;
+                }
+                bottom--;
             }
-            for (int ptr = layer + 1; ptr < n - layer - 1; ptr++) {
-                result[n - ptr - 1][layer] = cnt++;
+
+            if (left <= right) {
+                for (int r = bottom; r >= top; r--) {
+                    ans[r][left] = val++;
+                }
+                left++;
             }
         }
-        return result;
+
+        return ans;
     }
 }
