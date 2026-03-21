@@ -1,21 +1,23 @@
 class Solution {
     public int[][] reverseSubmatrix(int[][] grid, int x, int y, int k) {
-        int n = grid.length;
-        int m = grid[0].length;
-        int row_limit = x + k / 2;
-        int col_limit = y + k;
-        for (int i = x; i < row_limit; i++) {
-            for (int j = y; j < col_limit; j++) {
-                int mirrorRow = x + k - 1 - (i - x);
-                swap(grid, i, j, mirrorRow, j);
+        int top = x;
+        int bottom = x + k - 1;
+        int colEnd = y + k;
+
+        while (top < bottom) {
+            for (int col = y; col < colEnd; col++) {
+                swap(grid, top, col, bottom, col);
             }
+            top++;
+            bottom--;
         }
         return grid;
     }
 
-    public void swap(int[][] grid, int i, int j, int x, int y) {
-        int temp = grid[i][j];
-        grid[i][j] = grid[x][y];
-        grid[x][y] = temp;
+    public void swap(int[][] grid, int r1, int c1, int r2, int c2) {
+        int temp = grid[r1][c1];
+        grid[r1][c1] = grid[r2][c2];
+        grid[r2][c2] = temp;
     }
+
 }
