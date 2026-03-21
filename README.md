@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
+| [3643-flip-square-submatrix-vertically](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -45,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
+| [3643-flip-square-submatrix-vertically](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -175,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0031-next-permutation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0031-next-permutation/) | Medium |
 | [0189-rotate-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0189-rotate-array/) | Medium |
+| [3643-flip-square-submatrix-vertically](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
