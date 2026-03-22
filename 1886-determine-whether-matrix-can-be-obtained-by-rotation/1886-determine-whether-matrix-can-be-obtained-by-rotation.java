@@ -1,30 +1,20 @@
 class Solution {
     public boolean findRotation(int[][] mat, int[][] target) {
-        int n = mat.length;
+        int[][] cur = mat;
         for (int k = 0; k < 4; k++) {
-            for (int i = 0; i < n / 2; i++) {
-                for (int j = 0; j < (n + 1) / 2; j++) {
-                    int temp = mat[i][j];
-                    mat[i][j] = mat[n - 1 - j][i];
-                    mat[n - 1 - j][i] = mat[n - 1 - i][n - 1 - j];
-                    mat[n - 1 - i][n - 1 - j] = mat[j][n - 1 - i];
-                    mat[j][n - 1 - i] = temp;
-                }
-            }
-
-            if (isSame(mat, target)) {
+            if (same(cur, target)) {
                 return true;
             }
+            cur = rotate90Clockwise(cur);
         }
         return false;
     }
 
-    public boolean isSame(int[][] mat, int[][] target) {
-        int n = mat.length;
-        int m = mat[0].length;
+    private static boolean same(int[][] a, int[][] b) {
+        int n = a.length;
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (mat[i][j] != target[i][j]) {
+            for (int j = 0; j < n; j++) {
+                if (a[i][j] != b[i][j]) {
                     return false;
                 }
             }
@@ -32,4 +22,14 @@ class Solution {
         return true;
     }
 
+    private static int[][] rotate90Clockwise(int[][] in) {
+        int n = in.length;
+        int[][] out = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                out[j][n - 1 - i] = in[i][j];
+            }
+        }
+        return out;
+    }
 }
