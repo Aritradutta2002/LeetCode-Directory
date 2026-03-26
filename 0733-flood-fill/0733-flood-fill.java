@@ -1,20 +1,35 @@
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        int origin = image[sr][sc];
-        if (origin == color) return image;
-        dfs(origin, sr, sc, image, color);
+        int originalColor = image[sr][sc];
+        if (originalColor == color) {
+            return image;
+        }
+
+        int m = image.length;
+        int n = image[0].length;
+        Queue<int[]> queue = new LinkedList<>();
+        queue.add(new int[] { sr, sc });
+        image[sr][sc] = color;
+
+        int[] dr = { -1, 1, 0, 0 };
+        int[] dc = { 0, 0, -1, 1 };
+
+        while (!queue.isEmpty()) {
+            int[] curr = queue.poll();
+            int r = curr[0];
+            int c = curr[1];
+
+            for (int i = 0; i < 4; i++) {
+                int nr = r + dr[i];
+                int nc = c + dc[i];
+
+                if (nr >= 0 && nr < m && nc >= 0 && nc < n && image[nr][nc] == originalColor) {
+                    image[nr][nc] = color;
+                    queue.add(new int[] { nr, nc });
+                }
+            }
+        }
+
         return image;
-    }
-
-    public void dfs(int origin, int r, int c, int[][] image, int color) {
-        if (r < 0 || r >= image.length) return;      // ← stops dfs itself
-        if (c < 0 || c >= image[0].length) return;
-        if (image[r][c] != origin) return;
-
-        image[r][c] = color;
-        dfs(origin, r + 1, c, image, color); // Down
-        dfs(origin, r - 1, c, image, color); // UP
-        dfs(origin, r, c + 1, image, color); // Right
-        dfs(origin, r, c - 1, image, color); // Left 
     }
 }
