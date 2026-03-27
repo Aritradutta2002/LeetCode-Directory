@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0213-house-robber-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0213-house-robber-ii/) | Medium |
 | [0260-single-number-iii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0260-single-number-iii/) | Medium |
 | [0322-coin-change](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0322-coin-change/) | Medium |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
 | [0907-sum-of-subarray-minimums](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [0908-smallest-range-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0908-smallest-range-i/) | Easy |
@@ -51,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0063-unique-paths-ii/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0200-number-of-islands](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0200-number-of-islands/) | Medium |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
@@ -133,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0213-house-robber-ii/) | Medium |
 | [0322-coin-change](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0322-coin-change/) | Medium |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0509-fibonacci-number](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0509-fibonacci-number/) | Easy |
 | [0907-sum-of-subarray-minimums](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
@@ -144,11 +147,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0133-clone-graph/) | Medium |
 | [0200-number-of-islands](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0200-number-of-islands/) | Medium |
 | [0322-coin-change](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0322-coin-change/) | Medium |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0070-climbing-stairs/) | Easy |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0509-fibonacci-number](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0509-fibonacci-number/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -193,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0133-clone-graph](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0133-clone-graph/) | Medium |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Minimum Spanning Tree
 | Problem Name | Difficulty |
@@ -225,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0133-clone-graph](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0133-clone-graph/) | Medium |
 | [0200-number-of-islands](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0200-number-of-islands/) | Medium |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
@@ -234,4 +241,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+## Topological Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 <!---LeetCode Topics End-->
