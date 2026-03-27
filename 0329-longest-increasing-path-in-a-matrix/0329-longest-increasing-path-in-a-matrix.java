@@ -16,7 +16,7 @@ class Solution {
     }
 
     public int dfs(int[][] matrix, int[][] memo, int n, int m, int i, int j) {
-        if (memo[i][j] > 0)
+        if (memo[i][j] != 0)
             return memo[i][j];
         int path = 0;
         int[][] dir = { { 1, 0 }, { -1, 0 }, { 0, 1 }, { 0, -1 } };
