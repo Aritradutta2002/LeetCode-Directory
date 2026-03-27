@@ -4,26 +4,30 @@ class Solution {
             return 0;
         int n = matrix.length;
         int m = matrix[0].length;
+        int[][] memo = new int[n][m];
         int longestPath = 0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                int path = dfs(matrix, n, m, i, j);
+                int path = dfs(matrix, memo, n, m, i, j);
                 longestPath = Math.max(longestPath, path);
             }
         }
         return longestPath;
     }
 
-    public int dfs(int[][] matrix, int n, int m, int i, int j) {
+    public int dfs(int[][] matrix, int[][] memo, int n, int m, int i, int j) {
+        if (memo[i][j] > 0)
+            return memo[i][j];
         int path = 0;
         int[][] dir = { { 1, 0 }, { -1, 0 }, { 0, 1 }, { 0, -1 } };
         for (int[] d : dir) {
             int x = i + d[0];
             int y = j + d[1];
             if (x >= 0 && x < n && y >= 0 && y < m && matrix[x][y] > matrix[i][j]) {
-                path = Math.max(path, dfs(matrix, n, m, x, y));
+                path = Math.max(path, dfs(matrix, memo, n, m, x, y));
             }
         }
+        memo[i][j] = path + 1;
         return path + 1;
     }
 }
