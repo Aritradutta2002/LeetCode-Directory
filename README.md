@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2170-minimum-operations-to-make-the-array-alternating/) | Medium |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
@@ -55,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
@@ -73,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0908-smallest-range-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0908-smallest-range-i/) | Easy |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
 | [1622-fancy-sequence](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1622-fancy-sequence/) | Hard |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Geometry
 | Problem Name | Difficulty |
@@ -110,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0054-spiral-matrix/) | Medium |
 | [0059-spiral-matrix-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0059-spiral-matrix-ii/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
