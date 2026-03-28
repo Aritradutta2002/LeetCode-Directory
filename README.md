@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2170-minimum-operations-to-make-the-array-alternating/) | Medium |
+| [2573-find-the-string-with-lcp](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
@@ -42,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2170-minimum-operations-to-make-the-array-alternating/) | Medium |
+| [2573-find-the-string-with-lcp](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Matrix
@@ -58,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
+| [2573-find-the-string-with-lcp](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
@@ -107,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2573-find-the-string-with-lcp](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2573-find-the-string-with-lcp/) | Hard |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -139,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0509-fibonacci-number](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0509-fibonacci-number/) | Easy |
 | [0907-sum-of-subarray-minimums](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
+| [2573-find-the-string-with-lcp](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3130-find-all-possible-stable-binary-arrays-ii/) | Hard |
 ## Breadth-First Search
@@ -193,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0200-number-of-islands/) | Medium |
+| [2573-find-the-string-with-lcp](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Graph Theory
 | Problem Name | Difficulty |
