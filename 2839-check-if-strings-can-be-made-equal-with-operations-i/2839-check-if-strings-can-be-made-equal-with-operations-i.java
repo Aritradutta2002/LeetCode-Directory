@@ -1,31 +1,31 @@
 class Solution {
-    public boolean canBeEqual(String s1, String s2) {
+    public static boolean canBeEqual(String s1, String s2) {
         if (s1.length() != s2.length()) {
             return false;
         }
 
-        int[] evenFreq = new int[26];
-        int[] oddFreq = new int[26];
+        if (s1.equals(s2))
+            return true;
 
-        for (int i = 0; i < s1.length(); i++) {
-            int a = s1.charAt(i) - 'a';
-            int b = s2.charAt(i) - 'a';
+        char[] c1 = s2.toCharArray();
+        if (s1.equals(swap(c1, 0, 2)))
+            return true;
+        char[] c2 = s2.toCharArray();
+        if (s1.equals(swap(c2, 1, 3)))
+            return true;
+        char[] c3 = s2.toCharArray();
+        swap(c3, 0, 2);
+        swap(c3, 1, 3);
+        if (s1.equals(new String(c3)))
+            return true;
 
-            if ((i & 1) == 0) {
-                evenFreq[a]++;
-                evenFreq[b]--;
-            } else {
-                oddFreq[a]++;
-                oddFreq[b]--;
-            }
-        }
+        return false;
+    }
 
-        for (int i = 0; i < 26; i++) {
-            if (evenFreq[i] != 0 || oddFreq[i] != 0) {
-                return false;
-            }
-        }
-
-        return true;
+    public static String swap(char[] temp, int i, int j) {
+        char t = temp[i];
+        temp[i] = temp[j];
+        temp[j] = t;
+        return new String(temp);
     }
 }
