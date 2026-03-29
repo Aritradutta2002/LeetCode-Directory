@@ -1,11 +1,31 @@
 class Solution {
     public boolean canBeEqual(String s1, String s2) {
-        boolean evenMatch = (s1.charAt(0) == s2.charAt(0) && s1.charAt(2) == s2.charAt(2))
-                || (s1.charAt(0) == s2.charAt(2) && s1.charAt(2) == s2.charAt(0));
+        if (s1.length() != s2.length()) {
+            return false;
+        }
 
-        boolean oddMatch = (s1.charAt(1) == s2.charAt(1) && s1.charAt(3) == s2.charAt(3))
-                || (s1.charAt(1) == s2.charAt(3) && s1.charAt(3) == s2.charAt(1));
+        int[] evenFreq = new int[26];
+        int[] oddFreq = new int[26];
 
-        return evenMatch && oddMatch;
+        for (int i = 0; i < s1.length(); i++) {
+            int a = s1.charAt(i) - 'a';
+            int b = s2.charAt(i) - 'a';
+
+            if ((i & 1) == 0) {
+                evenFreq[a]++;
+                evenFreq[b]--;
+            } else {
+                oddFreq[a]++;
+                oddFreq[b]--;
+            }
+        }
+
+        for (int i = 0; i < 26; i++) {
+            if (evenFreq[i] != 0 || oddFreq[i] != 0) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
