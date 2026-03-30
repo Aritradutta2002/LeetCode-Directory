@@ -12,7 +12,7 @@ class Solution {
                 even1.add(s1.charAt(i));
                 even2.add(s2.charAt(i));
             } else {
-                odd1.add((s2.charAt(i)));
+                odd1.add((s1.charAt(i)));
                 odd2.add((s2.charAt(i)));
             }
         }
