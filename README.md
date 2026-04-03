@@ -78,12 +78,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0260-single-number-iii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0260-single-number-iii/) | Medium |
+| [0342-power-of-four](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0342-power-of-four/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0070-climbing-stairs/) | Easy |
 | [0189-rotate-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0189-rotate-array/) | Medium |
+| [0342-power-of-four](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0342-power-of-four/) | Easy |
 | [0509-fibonacci-number](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0509-fibonacci-number/) | Easy |
 | [0908-smallest-range-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0908-smallest-range-i/) | Easy |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
@@ -125,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0342-power-of-four](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0342-power-of-four/) | Easy |
 | [0509-fibonacci-number](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0509-fibonacci-number/) | Easy |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 ## Simulation
