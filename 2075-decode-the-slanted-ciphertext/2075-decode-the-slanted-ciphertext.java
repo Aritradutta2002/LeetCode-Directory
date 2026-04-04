@@ -1,0 +1,25 @@
+class Solution {
+    public String decodeCiphertext(String encodedText, int rows) {
+        if (encodedText == null || encodedText.isEmpty())
+            return "";
+
+        int n = encodedText.length();
+        int cols = n / rows;
+        StringBuilder result = new StringBuilder();
+
+        for (int startCol = 0; startCol < cols; startCol++) {
+            int row = 0;
+            int col = startCol;
+            while (row < rows && col < cols) {
+                result.append(encodedText.charAt(row * cols + col));
+                row++;
+                col++;
+            }
+        }
+
+        while (result.length() > 0 && result.charAt(result.length() - 1) == ' ') {
+            result.deleteCharAt(result.length() - 1);
+        }
+        return result.toString();
+    }
+}
