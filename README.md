@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
 | [0907-sum-of-subarray-minimums](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [0908-smallest-range-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0908-smallest-range-i/) | Easy |
+| [0994-rotting-oranges](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
@@ -61,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0542-01-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
+| [0994-rotting-oranges](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
@@ -176,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0547-number-of-provinces/) | Medium |
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
+| [0994-rotting-oranges](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
