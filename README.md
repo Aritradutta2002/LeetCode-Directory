@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
+| [3655-xor-after-range-multiplication-queries-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -197,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0761-special-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0761-special-binary-string/) | Hard |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
+| [3655-xor-after-range-multiplication-queries-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
