@@ -1,21 +1,23 @@
 class Solution {
+
     public int minimumDistance(int[] nums) {
-        Map<Integer, List<Integer>> indexMap = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            indexMap.computeIfAbsent(nums[i], k -> new ArrayList<>()).add(i);
-        }
+        int n = nums.length;
+        int ans = n + 1;
 
-        int minDistance = Integer.MAX_VALUE;
-
-        for (List<Integer> indices : indexMap.values()) {
-            if (indices.size() < 3)
-                continue;
-            for (int t = 0; t + 2 < indices.size(); t++) {
-                int dist = 2 * (indices.get(t + 2) - indices.get(t));
-                minDistance = Math.min(minDistance, dist);
+        for (int i = 0; i < n - 2; i++) {
+            for (int j = i + 1; j < n - 1; j++) {
+                if (nums[i] != nums[j]) {
+                    continue;
+                }
+                for (int k = j + 1; k < n; k++) {
+                    if (nums[j] == nums[k]) {
+                        ans = Math.min(ans, k - i);
+                        break;
+                    }
+                }
             }
         }
 
-        return minDistance == Integer.MAX_VALUE ? -1 : minDistance;
+        return ans == n + 1 ? -1 : ans * 2;
     }
 }
