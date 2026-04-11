@@ -1,6 +1,6 @@
 class Solution {
     public int minimumDistance(int[] nums) {
-         int n = nums.length;
+        int n = nums.length;
         int[] first = new int[n + 1];
         int[] second = new int[n + 1];
         int[] count = new int[n + 1];
