@@ -1,19 +1,30 @@
 class Solution {
     public int minimumDistance(int[] nums) {
-        Map<Integer, List<Integer>> positions = new HashMap<>();
-
-        for (int i = 0; i < nums.length; i++) {
-            positions.computeIfAbsent(nums[i], key -> new ArrayList<>()).add(i);
-        }
-
+         int n = nums.length;
+        int[] first = new int[n + 1];
+        int[] second = new int[n + 1];
+        int[] count = new int[n + 1];
+        Arrays.fill(first, -1);
+        Arrays.fill(second, -1);
         int minDistance = Integer.MAX_VALUE;
 
-        for (List<Integer> list : positions.values()) {
-            for (int i = 2; i < list.size(); i++) {
-                int first = list.get(i - 2);
-                int third = list.get(i);
-                minDistance = Math.min(minDistance, 2 * (third - first));
+        for (int i = 0; i < n; i++) {
+            int value = nums[i];
+
+            if (count[value] >= 2) {
+                minDistance = Math.min(minDistance, 2 * (i - first[value]));
             }
+
+            if (count[value] == 0) {
+                first[value] = i;
+            } else if (count[value] == 1) {
+                second[value] = i;
+            } else {
+                first[value] = second[value];
+                second[value] = i;
+            }
+
+            count[value]++;
         }
 
         return minDistance == Integer.MAX_VALUE ? -1 : minDistance;
