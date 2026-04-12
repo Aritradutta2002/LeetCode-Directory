@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0322-coin-change/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0542-01-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0542-01-matrix/) | Medium |
+| [0695-max-area-of-island](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0907-sum-of-subarray-minimums/) | Medium |
@@ -66,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0200-number-of-islands/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0542-01-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0542-01-matrix/) | Medium |
+| [0695-max-area-of-island](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
@@ -187,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0542-01-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0547-number-of-provinces/) | Medium |
+| [0695-max-area-of-island](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
@@ -239,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0547-number-of-provinces/) | Medium |
+| [0695-max-area-of-island](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0695-max-area-of-island/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Graph Theory
@@ -281,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0200-number-of-islands/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0547-number-of-provinces](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0547-number-of-provinces/) | Medium |
+| [0695-max-area-of-island](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
