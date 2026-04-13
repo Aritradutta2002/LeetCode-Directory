@@ -130,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0657-robot-return-to-origin](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0761-special-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0761-special-binary-string/) | Hard |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
+| [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
@@ -176,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0509-fibonacci-number](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0509-fibonacci-number/) | Easy |
 | [0542-01-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0542-01-matrix/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0907-sum-of-subarray-minimums/) | Medium |
+| [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
