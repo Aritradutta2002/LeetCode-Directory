@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0059-spiral-matrix-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0059-spiral-matrix-ii/) | Medium |
 | [0063-unique-paths-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0063-unique-paths-ii/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0075-sort-colors](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0075-sort-colors/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0189-rotate-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0189-rotate-array/) | Medium |
@@ -224,6 +225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0075-sort-colors](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0075-sort-colors/) | Medium |
 | [0761-special-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0761-special-binary-string/) | Hard |
 | [2463-minimum-total-distance-traveled](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
@@ -284,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0031-next-permutation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0031-next-permutation/) | Medium |
+| [0075-sort-colors](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0075-sort-colors/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0189-rotate-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0189-rotate-array/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
