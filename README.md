@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
+| [0011-container-with-most-water](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0011-container-with-most-water/) | Medium |
 | [0031-next-permutation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0031-next-permutation/) | Medium |
 | [0054-spiral-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0054-spiral-matrix/) | Medium |
 | [0059-spiral-matrix-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0059-spiral-matrix-ii/) | Medium |
@@ -59,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0011-container-with-most-water/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2170-minimum-operations-to-make-the-array-alternating/) | Medium |
@@ -286,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0011-container-with-most-water/) | Medium |
 | [0031-next-permutation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0031-next-permutation/) | Medium |
 | [0075-sort-colors](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0075-sort-colors/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
