@@ -1,25 +1,22 @@
 class Solution {
     public int maxDistance(int[] colors) {
-        Map<Integer, Integer> first = new HashMap<>();
-        Map<Integer, Integer> last = new HashMap<>();
-
-        for (int i = 0; i < colors.length; i++) {
-            int color = colors[i];
-            if (!first.containsKey(color)) {
-                first.put(color, i);
-            }
-            last.put(color, i);
-        }
-
+        int n = colors.length;
         int maxDist = 0;
-        for (int color1 : first.keySet()) {
-            for (int color2 : last.keySet()) {
-                if (color1 != color2) {
-                    maxDist = Math.max(maxDist, Math.abs(last.get(color2) - first.get(color1)));
-                }
+        
+        // Find farthest house from the first house
+        for(int i = 0; i < n; i++){
+            if(colors[i] != colors[0]){
+                maxDist = Math.max(maxDist, i);
             }
         }
 
+        // Find farthest house from the last house
+        for(int i = 0; i < n; i++){
+            if(colors[i] != colors[n - 1]){
+                maxDist = Math.max(maxDist, n - 1 - i);
+            }
+        }
+        
         return maxDist;
     }
 }
