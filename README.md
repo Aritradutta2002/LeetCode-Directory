@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1559-detect-cycles-in-2d-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [1848-minimum-distance-to-the-target-element](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
@@ -276,6 +277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0547-number-of-provinces/) | Medium |
 | [0695-max-area-of-island](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0695-max-area-of-island/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Graph Theory
@@ -325,6 +327,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
