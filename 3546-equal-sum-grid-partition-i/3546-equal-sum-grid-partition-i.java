@@ -20,6 +20,7 @@ class Solution {
             return false;
         long half = total / 2;
 
+        // Search range [1, n) / [1, m) — exclude index 0 (sum is always 0)
         if (Arrays.binarySearch(rowPS, 1, n, half) >= 0)
             return true;
         if (Arrays.binarySearch(colPS, 1, m, half) >= 0)
