@@ -1,17 +1,16 @@
 class Solution {
     public int furthestDistanceFromOrigin(String moves) {
-        int right = 0;
-        int left = 0;
-        int free = 0;
-        int n = moves.length();
-
-        for(char ch : moves.toCharArray()){
-            if(ch == 'R') right++;
-            else if(ch == 'L') left++;
-            else{
-                free++;
-            }
+        int l = 0;
+        int r = 0;
+        int t = 0;
+        for (char c : moves.toCharArray()) {
+            if (c == 'L')
+                l++;
+            if (c == 'R')
+                r++;
+            if (c == '_')
+                t++;
         }
-        return Math.abs(right - left) + free;
+        return Math.abs(l - r) + t;
     }
 }
