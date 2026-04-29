@@ -1,67 +1,97 @@
 class Solution {
     public long maximumScore(int[][] grid) {
         int n = grid.length;
+        if (n == 1)
+            return 0L;
 
-        long[][] colSum = new long[n][n];
-        for (int j = 0; j < n; j++) {
-            colSum[j][0] = grid[0][j];
-            for (int i = 1; i < n; i++)
-                colSum[j][i] = colSum[j][i - 1] + grid[i][j];
+        int M = n + 1; // possible values: -1 .. n-1 -> indices 0 .. n
+        // prefix sums for each column
+        long[][] ps = new long[n][n + 1];
+        for (int j = 0; j < n; ++j) {
+            for (int i = 0; i < n; ++i) {
+                ps[j][i + 1] = ps[j][i] + grid[i][j];
+            }
         }
 
-        final long NEG = Long.MIN_VALUE / 4;
-        long[][] dp = new long[n + 1][n + 1];
-        for (long[] row : dp)
-            Arrays.fill(row, NEG);
-        for (int b = 0; b <= n; b++)
-            dp[0][b] = 0;
+        // dp[aIdx][bIdx] : a = aIdx-1, b = bIdx-1
+        long[][] dp = new long[M][M];
+        for (int i = 0; i < M; ++i)
+            Arrays.fill(dp[i], Long.MIN_VALUE / 2);
+        for (int bIdx = 0; bIdx < M; ++bIdx)
+            dp[0][bIdx] = 0; // h_{-1} = -1
 
-        for (int j = 0; j < n - 1; j++) {
-            long[][] ndp = new long[n + 1][n + 1];
-            for (long[] row : ndp)
-                Arrays.fill(row, NEG);
+        // process columns 0 .. n-2
+        for (int j = 0; j < n - 1; ++j) {
+            long[][] newdp = new long[M][M];
+            for (int i = 0; i < M; ++i)
+                Arrays.fill(newdp[i], Long.MIN_VALUE / 2);
 
-            for (int b = 0; b <= n; b++) {
-                long base = b > 0 ? colSum[j][b - 1] : 0;
+            for (int bIdx = 0; bIdx < M; ++bIdx) {
+                int b = bIdx - 1;
+                int low = b + 1;
 
-                long[] g = new long[n + 1];
-                for (int a = 0; a <= n; a++) {
-                    int m = a - 1;
-                    g[a] = dp[a][b] + (m >= b ? colSum[j][m] - base : 0);
+                // prefix maximum of dp[a][b] over a (aIdx)
+                long[] pref = new long[M];
+                long curMax = Long.MIN_VALUE / 2;
+                for (int aIdx = 0; aIdx < M; ++aIdx) {
+                    curMax = Math.max(curMax, dp[aIdx][bIdx]);
+                    pref[aIdx] = curMax;
                 }
 
-                long[] suf = new long[n + 1];
-                suf[n] = g[n];
-                for (int i = n - 1; i >= 0; i--)
-                    suf[i] = Math.max(g[i], suf[i + 1]);
+                // E[a] = dp[a][b] + A(a,b)
+                long[] E = new long[M];
+                for (int aIdx = 0; aIdx < M; ++aIdx) {
+                    int a = aIdx - 1;
+                    long A = 0;
+                    if (low <= n - 1 && a >= low) {
+                        A = ps[j][a + 1] - ps[j][low];
+                    }
+                    E[aIdx] = dp[aIdx][bIdx] + A;
+                }
 
-                long[] pre = new long[n + 1];
-                pre[0] = NEG;
-                for (int i = 1; i <= n; i++)
-                    pre[i] = Math.max(pre[i - 1], dp[i - 1][b]);
+                // suffix maximum of E
+                long[] suff = new long[M + 1];
+                suff[M] = Long.MIN_VALUE / 2;
+                for (int aIdx = M - 1; aIdx >= 0; --aIdx) {
+                    suff[aIdx] = Math.max(E[aIdx], suff[aIdx + 1]);
+                }
 
-                for (int c = 0; c <= n; c++) {
-                    long v1 = suf[c];
-                    int m = c - 1;
-                    long p = m >= b ? colSum[j][m] - base : 0;
-                    ndp[b][c] = Math.max(v1, p + pre[c]);
+                for (int cIdx = 0; cIdx < M; ++cIdx) {
+                    int c = cIdx - 1;
+                    long B = 0;
+                    long C = 0;
+                    if (low <= n - 1 && c >= low) {
+                        B = ps[j][c + 1] - ps[j][low];
+                        C = B;
+                    }
+                    long best1 = pref[cIdx];
+                    long best2 = (cIdx + 1 < M) ? suff[cIdx + 1] : Long.MIN_VALUE / 2;
+                    if (best2 != Long.MIN_VALUE / 2)
+                        best2 -= C;
+                    long best = Math.max(best1, best2);
+                    if (best != Long.MIN_VALUE / 2) {
+                        newdp[bIdx][cIdx] = best + B;
+                    }
                 }
             }
-            dp = ndp;
+            dp = newdp;
         }
 
+        // last column (j = n-1)
         long ans = 0;
-        for (int a = 0; a <= n; a++) {
-            for (int b = 0; b <= n; b++) {
-                if (dp[a][b] <= NEG / 2)
+        for (int aIdx = 0; aIdx < M; ++aIdx) {
+            for (int bIdx = 0; bIdx < M; ++bIdx) {
+                long cur = dp[aIdx][bIdx];
+                if (cur == Long.MIN_VALUE / 2)
                     continue;
-                int da = a - 1, db = b - 1, lo = db + 1;
+                int a = aIdx - 1;
+                int b = bIdx - 1;
+                int low = b + 1;
                 long add = 0;
-                if (da >= 0 && lo <= da) {
-                    int hi = Math.min(da, n - 1);
-                    add = colSum[n - 1][hi] - (lo > 0 ? colSum[n - 1][lo - 1] : 0);
+                if (low <= n - 1 && a >= low) {
+                    add = ps[n - 1][a + 1] - ps[n - 1][low];
                 }
-                ans = Math.max(ans, dp[a][b] + add);
+                ans = Math.max(ans, cur + add);
             }
         }
         return ans;
