@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0396-rotate-function](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0396-rotate-function/) | Medium |
 | [0542-01-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0542-01-matrix/) | Medium |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0599-minimum-index-sum-of-two-lists/) | Easy |
 | [0695-max-area-of-island](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0874-walking-robot-simulation/) | Medium |
@@ -145,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0133-clone-graph](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0133-clone-graph/) | Medium |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0599-minimum-index-sum-of-two-lists/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2170-minimum-operations-to-make-the-array-alternating/) | Medium |
@@ -165,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0020-valid-parentheses](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0020-valid-parentheses/) | Easy |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0599-minimum-index-sum-of-two-lists/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0761-special-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0761-special-binary-string/) | Hard |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
