@@ -127,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0342-power-of-four](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0342-power-of-four/) | Easy |
 | [0396-rotate-function](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0396-rotate-function/) | Medium |
 | [0509-fibonacci-number](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0509-fibonacci-number/) | Easy |
+| [0788-rotated-digits](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0788-rotated-digits/) | Medium |
 | [0908-smallest-range-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0908-smallest-range-i/) | Easy |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
 | [1622-fancy-sequence](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1622-fancy-sequence/) | Hard |
@@ -223,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0396-rotate-function](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0396-rotate-function/) | Medium |
 | [0509-fibonacci-number](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0509-fibonacci-number/) | Easy |
 | [0542-01-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0542-01-matrix/) | Medium |
+| [0788-rotated-digits](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0788-rotated-digits/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
