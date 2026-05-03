@@ -1,49 +1,85 @@
 class Solution {
-
     public String generateString(String str1, String str2) {
         int n = str1.length();
         int m = str2.length();
-        char[] s = new char[n + m - 1];
-        int[] fixed = new int[n + m - 1];
-
-        for (int i = 0; i < s.length; i++) {
-            s[i] = 'a';
-        }
+        int wordLen = n + m - 1;
+        char[] res = new char[wordLen];
+        boolean[] isFixed = new boolean[wordLen];
 
         for (int i = 0; i < n; i++) {
             if (str1.charAt(i) == 'T') {
-                for (int j = i; j < i + m; j++) {
-                    if (fixed[j] == 1 && s[j] != str2.charAt(j - i)) {
-                        return "";
+                for (int j = 0; j < m; j++) {
+                    int pos = i + j;
+                    char c = str2.charAt(j);
+                    if (isFixed[pos]) {
+                        if (res[pos] != c)
+                            return "";
                     } else {
-                        s[j] = str2.charAt(j - i);
-                        fixed[j] = 1;
+                        res[pos] = c;
+                        isFixed[pos] = true;
                     }
                 }
             }
+        }
+
+        for (int pos = 0; pos < wordLen; pos++) {
+            if (!isFixed[pos])
+                res[pos] = 'a';
         }
 
         for (int i = 0; i < n; i++) {
             if (str1.charAt(i) == 'F') {
-                boolean flag = false;
-                int idx = -1;
-                for (int j = i + m - 1; j >= i; j--) {
-                    if (str2.charAt(j - i) != s[j]) {
-                        flag = true;
-                    }
-                    if (idx == -1 && fixed[j] == 0) {
-                        idx = j;
+                boolean equal = true;
+                for (int j = 0; j < m; j++) {
+                    int pos = i + j;
+                    if (res[pos] != str2.charAt(j)) {
+                        equal = false;
+                        break;
                     }
                 }
-                if (flag) {
-                    continue;
-                } else if (idx != -1) {
-                    s[idx] = 'b';
-                } else {
-                    return "";
+                if (equal) {
+                    int bestPos = -1;
+                    int minCount = Integer.MAX_VALUE;
+                    for (int j = 0; j < m; j++) {
+                        int pos = i + j;
+                        if (isFixed[pos])
+                            continue;
+                        int count = 0;
+                        for (int k = 0; k < n; k++) {
+                            if (str1.charAt(k) == 'F') {
+                                boolean allMatch = true;
+                                for (int l = 0; l < m; l++) {
+                                    int p = k + l;
+                                    if (res[p] != str2.charAt(l)) {
+                                        allMatch = false;
+                                        break;
+                                    }
+                                }
+                                if (allMatch) {
+                                    for (int l = 0; l < m; l++) {
+                                        int p = k + l;
+                                        if (!isFixed[p])
+                                            count++;
+                                    }
+                                }
+                            }
+                        }
+                        if (count > 0 && count < minCount) {
+                            minCount = count;
+                            bestPos = pos;
+                        } else if (count == minCount && (bestPos == -1 || pos < bestPos)) {
+                            bestPos = pos;
+                        }
+                    }
+                    if (bestPos == -1)
+                        return "";
+                    res[bestPos] = (char) (res[bestPos] + 1);
+                    if (res[bestPos] > 'z')
+                        return "";
+                    i = -1;
                 }
             }
         }
-        return new String(s);
+        return new String(res);
     }
 }
