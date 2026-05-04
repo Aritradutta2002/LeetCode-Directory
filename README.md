@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0011-container-with-most-water](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0011-container-with-most-water/) | Medium |
 | [0031-next-permutation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0031-next-permutation/) | Medium |
+| [0048-rotate-image](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0054-spiral-matrix/) | Medium |
 | [0059-spiral-matrix-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0059-spiral-matrix-ii/) | Medium |
 | [0063-unique-paths-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0063-unique-paths-ii/) | Medium |
@@ -87,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0054-spiral-matrix/) | Medium |
 | [0059-spiral-matrix-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0059-spiral-matrix-ii/) | Medium |
 | [0063-unique-paths-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0063-unique-paths-ii/) | Medium |
@@ -124,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0048-rotate-image/) | Medium |
 | [0062-unique-paths](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0070-climbing-stairs/) | Easy |
 | [0171-excel-sheet-column-number](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0171-excel-sheet-column-number/) | Easy |
