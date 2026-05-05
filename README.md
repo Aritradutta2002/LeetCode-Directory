@@ -350,6 +350,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0011-container-with-most-water/) | Medium |
 | [0031-next-permutation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0031-next-permutation/) | Medium |
+| [0061-rotate-list](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0061-rotate-list/) | Medium |
 | [0075-sort-colors](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0075-sort-colors/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0189-rotate-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0189-rotate-array/) | Medium |
@@ -401,4 +402,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0796-rotate-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0796-rotate-string/) | Easy |
 | [3474-lexicographically-smallest-generated-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0061-rotate-list](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0061-rotate-list/) | Medium |
 <!---LeetCode Topics End-->
