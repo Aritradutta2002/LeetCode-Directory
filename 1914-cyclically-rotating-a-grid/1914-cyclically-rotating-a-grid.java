@@ -1,42 +1,29 @@
 class Solution {
     public int[][] rotateGrid(int[][] grid, int k) {
         int m = grid.length, n = grid[0].length;
-        int layers = Math.min(m, n) / 2;
-        int[][] result = new int[m][n];
+        int r1 = 0, c1 = 0, r2 = m - 1, c2 = n - 1;
+        while (r1 < r2 && c1 < c2) {
+            // Extract the ring elements
+            List<Integer> ring = new ArrayList<>();
+            for (int i = c1; i <= c2; i++) ring.add(grid[r1][i]);
+            for (int i = r1 + 1; i <= r2; i++) ring.add(grid[i][c2]);
+            for (int i = c2 - 1; i >= c1; i--) ring.add(grid[r2][i]);
+            for (int i = r2 - 1; i > r1; i--) ring.add(grid[i][c1]);
 
-        for (int layer = 0; layer < layers; layer++) {
-            int top = layer, left = layer;
-            int bottom = m - 1 - layer, right = n - 1 - layer;
+            // Rotate the ring counter-clockwise as required by the problem.
+            int rotations = k % ring.size();
+            Collections.rotate(ring, -rotations);
 
-            List<Integer> elements = new ArrayList<>();
-            List<int[]> positions = new ArrayList<>();
+            // Put the rotated elements back
+            int idx = 0;
+            for (int i = c1; i <= c2; i++) grid[r1][i] = ring.get(idx++);
+            for (int i = r1 + 1; i <= r2; i++) grid[i][c2] = ring.get(idx++);
+            for (int i = c2 - 1; i >= c1; i--) grid[r2][i] = ring.get(idx++);
+            for (int i = r2 - 1; i > r1; i--) grid[i][c1] = ring.get(idx++);
 
-            for (int j = left; j <= right; j++) {
-                elements.add(grid[top][j]);
-                positions.add(new int[] { top, j });
-            }
-            for (int i = top + 1; i <= bottom; i++) {
-                elements.add(grid[i][right]);
-                positions.add(new int[] { i, right });
-            }
-            for (int j = right - 1; j >= left; j--) {
-                elements.add(grid[bottom][j]);
-                positions.add(new int[] { bottom, j });
-            }
-            for (int i = bottom - 1; i > top; i--) {
-                elements.add(grid[i][left]);
-                positions.add(new int[] { i, left });
-            }
-
-            int len = elements.size();
-            int rot = k % len;
-
-            for (int idx = 0; idx < len; idx++) {
-                int[] pos = positions.get(idx);
-                result[pos[0]][pos[1]] = elements.get((idx + rot) % len);
-            }
+            // Move to the next inner ring
+            r1++; c1++; r2--; c2--;
         }
-
-        return result;
+        return grid;      
     }
 }
