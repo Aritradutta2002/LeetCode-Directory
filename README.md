@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0075-sort-colors](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0075-sort-colors/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0152-maximum-product-subarray/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0189-rotate-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0189-rotate-array/) | Medium |
 | [0198-house-robber](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0198-house-robber/) | Medium |
@@ -329,6 +330,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0074-search-a-2d-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
