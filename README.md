@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
+| [2540-minimum-common-value](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2540-minimum-common-value/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2615-sum-of-distances](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2615-sum-of-distances/) | Medium |
@@ -172,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1345-jump-game-iv](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1345-jump-game-iv/) | Hard |
 | [1980-find-unique-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2170-minimum-operations-to-make-the-array-alternating/) | Medium |
+| [2540-minimum-common-value](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2540-minimum-common-value/) | Easy |
 | [2615-sum-of-distances](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2615-sum-of-distances/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
@@ -338,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
+| [2540-minimum-common-value](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2540-minimum-common-value/) | Easy |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3488-closest-equal-element-queries](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3488-closest-equal-element-queries/) | Medium |
@@ -380,6 +383,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0189-rotate-array/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1861-rotating-the-box/) | Medium |
+| [2540-minimum-common-value](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2540-minimum-common-value/) | Easy |
 | [3643-flip-square-submatrix-vertically](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Design
 | Problem Name | Difficulty |
