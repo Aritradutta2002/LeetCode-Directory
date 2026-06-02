@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3546-equal-sum-grid-partition-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3643-flip-square-submatrix-vertically](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
@@ -103,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3474-lexicographically-smallest-generated-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -327,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -362,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3488-closest-equal-element-queries](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3488-closest-equal-element-queries/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -401,6 +405,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1861-rotating-the-box/) | Medium |
 | [2540-minimum-common-value](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2540-minimum-common-value/) | Easy |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3643-flip-square-submatrix-vertically](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Design
 | Problem Name | Difficulty |
