@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
 | [3660-jump-game-ix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3660-jump-game-ix/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
+| [3689-maximum-total-subarray-value-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3689-maximum-total-subarray-value-i/) | Medium |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
@@ -105,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3474-lexicographically-smallest-generated-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
+| [3689-maximum-total-subarray-value-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3689-maximum-total-subarray-value-i/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
