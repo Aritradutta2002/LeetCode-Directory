@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1091-shortest-path-in-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
 | [1306-jump-game-iii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1306-jump-game-iii/) | Medium |
+| [1331-rank-transform-of-an-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1345-jump-game-iv](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
@@ -190,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0133-clone-graph/) | Medium |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0599-minimum-index-sum-of-two-lists/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0874-walking-robot-simulation/) | Medium |
+| [1331-rank-transform-of-an-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1345-jump-game-iv](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1345-jump-game-iv/) | Hard |
 | [1980-find-unique-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2170-minimum-operations-to-make-the-array-alternating/) | Medium |
@@ -335,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0075-sort-colors](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0075-sort-colors/) | Medium |
 | [0761-special-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0761-special-binary-string/) | Hard |
+| [1331-rank-transform-of-an-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
