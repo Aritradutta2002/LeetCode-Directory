@@ -1,62 +1,44 @@
 class Solution {
-    class DSU {
-        int[] parent, size;
+    public int countCompleteComponents(int n, int[][] edges) {
+        List<List<Integer>> graph = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            graph.add(new ArrayList<>());
+        }
 
-        DSU(int n) {
-            parent = new int[n];
-            size = new int[n];
-            for (int i = 0; i < n; i++) {
-                parent[i] = i;
-                size[i] = 1;
+        for (int[] edge : edges) {
+            graph.get(edge[0]).add(edge[1]);
+            graph.get(edge[1]).add(edge[0]);
+        }
+
+        boolean[] visited = new boolean[n];
+        int completeComponents = 0;
+
+        for (int node = 0; node < n; node++) {
+            if (visited[node]) {
+                continue;
+            }
+
+            int[] componentStats = new int[2];
+            dfs(node, graph, visited, componentStats);
+            int nodes = componentStats[0];
+            int degreeSum = componentStats[1];
+            if (degreeSum == nodes * (nodes - 1)) {
+                completeComponents++;
             }
         }
 
-        int find(int x) {
-            if (parent[x] == x)
-                return x;
-            return parent[x] = find(parent[x]);
-        }
-
-        void union(int x, int y) {
-            int xRoot = find(x), yRoot = find(y);
-            if (xRoot == yRoot)
-                return;
-
-            if (size[xRoot] > size[yRoot]) {
-                parent[yRoot] = xRoot;
-                size[xRoot] += size[yRoot];
-            } else {
-                parent[xRoot] = yRoot;
-                size[yRoot] += size[xRoot];
-            }
-        }
+        return completeComponents;
     }
 
-    public int countCompleteComponents(int n, int[][] edges) {
-        DSU dsu = new DSU(n);
-        Map<Integer, Integer> edgeCount = new HashMap<>();
+    private void dfs(int node, List<List<Integer>> graph, boolean[] visited, int[] componentStats) {
+        visited[node] = true;
+        componentStats[0]++;
+        componentStats[1] += graph.get(node).size();
 
-        for (int[] edge : edges) {
-            dsu.union(edge[0], edge[1]);
-        }
-
-        for (int[] edge : edges) {
-            int root = dsu.find(edge[0]);
-            edgeCount.put(root, edgeCount.getOrDefault(root, 0) + 1);
-        }
-
-        int result = 0;
-        for (int i = 0; i < n; i++) {
-            if (dsu.find(i) == i) {
-                int v = dsu.size[i];
-                int e = edgeCount.getOrDefault(i, 0);
-
-                if ((v * (v - 1)) / 2 == e) {
-                    result++;
-                }
+        for (int neighbor : graph.get(node)) {
+            if (!visited[neighbor]) {
+                dfs(neighbor, graph, visited, componentStats);
             }
         }
-
-        return result;
     }
 }
