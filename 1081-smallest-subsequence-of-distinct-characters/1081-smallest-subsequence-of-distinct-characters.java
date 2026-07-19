@@ -1,39 +1,22 @@
 class Solution {
     public String smallestSubsequence(String s) {
-        int n = s.length();
-        int[] words = new int[26];
-        for (char c : s.toCharArray()) {
-            words[c - 'a']++;
+        StringBuilder result = new StringBuilder();
+        int[] lastIndex = new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            lastIndex[s.charAt(i) - 'a'] = i;
         }
 
-        boolean[] inStack = new boolean[26];
-
-        // monotonic stack
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < n; i++) {
-            char curr = s.charAt(i);
-            int idx = curr - 'a';
-
-            words[idx]--;
-            if (inStack[idx]) {
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (result.indexOf(String.valueOf(c)) != -1)
                 continue;
+
+            while (result.length() > 0 && result.charAt(result.length() - 1) > c
+                    && lastIndex[result.charAt(result.length() - 1) - 'a'] > i) {
+                result.deleteCharAt(result.length() - 1);
             }
-
-            while (sb.length() > 0) {
-                char last = sb.charAt(sb.length() - 1);
-                if (last <= curr || words[last - 'a'] == 0) {
-                    break;
-                }
-
-                inStack[last - 'a'] = false;
-                sb.deleteCharAt(sb.length() - 1);
-            }
-
-            sb.append(curr);
-            inStack[idx] = true;
-
+            result.append(c);
         }
-
-        return sb.toString();
+        return result.toString();
     }
 }
