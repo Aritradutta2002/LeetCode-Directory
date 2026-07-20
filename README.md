@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0994-rotting-oranges](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
+| [1260-shift-2d-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1260-shift-2d-grid/) | Easy |
 | [1306-jump-game-iii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1306-jump-game-iii/) | Medium |
 | [1331-rank-transform-of-an-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1345-jump-game-iv](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1345-jump-game-iv/) | Hard |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1260-shift-2d-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1260-shift-2d-grid/) | Easy |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -258,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0059-spiral-matrix-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0059-spiral-matrix-ii/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0874-walking-robot-simulation/) | Medium |
+| [1260-shift-2d-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1260-shift-2d-grid/) | Easy |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
