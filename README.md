@@ -180,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
+| [3536-maximum-product-of-two-digits](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3536-maximum-product-of-two-digits/) | Easy |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
@@ -353,6 +354,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2784-check-if-array-is-good](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
+| [3536-maximum-product-of-two-digits](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3536-maximum-product-of-two-digits/) | Easy |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
