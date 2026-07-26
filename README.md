@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0396-rotate-function](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0396-rotate-function/) | Medium |
 | [0542-01-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0542-01-matrix/) | Medium |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0599-minimum-index-sum-of-two-lists/) | Easy |
+| [0628-maximum-product-of-three-numbers](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0695-max-area-of-island](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0733-flood-fill/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0874-walking-robot-simulation/) | Medium |
@@ -170,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0342-power-of-four](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0342-power-of-four/) | Easy |
 | [0396-rotate-function](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0396-rotate-function/) | Medium |
 | [0509-fibonacci-number](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0509-fibonacci-number/) | Easy |
+| [0628-maximum-product-of-three-numbers](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0788-rotated-digits](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0788-rotated-digits/) | Medium |
 | [0908-smallest-range-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0908-smallest-range-i/) | Easy |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
@@ -344,6 +346,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0075-sort-colors](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0075-sort-colors/) | Medium |
+| [0628-maximum-product-of-three-numbers](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0761-special-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0761-special-binary-string/) | Hard |
 | [1331-rank-transform-of-an-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
