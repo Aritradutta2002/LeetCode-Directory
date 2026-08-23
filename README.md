@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0200-number-of-islands/) | Medium |
 | [0213-house-robber-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0213-house-robber-ii/) | Medium |
+| [0218-the-skyline-problem](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0218-the-skyline-problem/) | Hard |
 | [0260-single-number-iii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0260-single-number-iii/) | Medium |
 | [0322-coin-change](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0322-coin-change/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
@@ -347,6 +348,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
+| [0218-the-skyline-problem](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0218-the-skyline-problem/) | Hard |
 | [0761-special-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0761-special-binary-string/) | Hard |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
@@ -354,6 +356,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0075-sort-colors](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0075-sort-colors/) | Medium |
+| [0218-the-skyline-problem](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0218-the-skyline-problem/) | Hard |
 | [0628-maximum-product-of-three-numbers](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0761-special-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0761-special-binary-string/) | Hard |
 | [1331-rank-transform-of-an-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1331-rank-transform-of-an-array/) | Easy |
@@ -437,6 +440,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0218-the-skyline-problem](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0218-the-skyline-problem/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
@@ -461,6 +465,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Segment Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0218-the-skyline-problem](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0218-the-skyline-problem/) | Hard |
 | [1622-fancy-sequence](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1622-fancy-sequence/) | Hard |
 ## Combinatorics
 | Problem Name | Difficulty |
@@ -519,4 +524,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
+## Binary Indexed Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0218-the-skyline-problem](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0218-the-skyline-problem/) | Hard |
+## Sweep Line
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0218-the-skyline-problem](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0218-the-skyline-problem/) | Hard |
+## Ordered Set
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0218-the-skyline-problem](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0218-the-skyline-problem/) | Hard |
 <!---LeetCode Topics End-->
