@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1848-minimum-distance-to-the-target-element](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1861-rotating-the-box/) | Medium |
+| [1872-stone-game-viii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1872-stone-game-viii/) | Hard |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1914-cyclically-rotating-a-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
@@ -179,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0908-smallest-range-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0908-smallest-range-i/) | Easy |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
 | [1622-fancy-sequence](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1622-fancy-sequence/) | Hard |
+| [1872-stone-game-viii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1872-stone-game-viii/) | Hard |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
@@ -308,6 +310,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1871-jump-game-vii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1871-jump-game-vii/) | Medium |
+| [1872-stone-game-viii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1872-stone-game-viii/) | Hard |
 | [2463-minimum-total-distance-traveled](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
@@ -382,6 +385,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1871-jump-game-vii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1871-jump-game-vii/) | Medium |
+| [1872-stone-game-viii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1872-stone-game-viii/) | Hard |
 | [2574-left-and-right-sum-differences](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2615-sum-of-distances](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2615-sum-of-distances/) | Medium |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
@@ -536,4 +540,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0218-the-skyline-problem](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0218-the-skyline-problem/) | Hard |
+## Minimax
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1872-stone-game-viii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1872-stone-game-viii/) | Hard |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1872-stone-game-viii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1872-stone-game-viii/) | Hard |
+## Zero-Sum Game
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1872-stone-game-viii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1872-stone-game-viii/) | Hard |
 <!---LeetCode Topics End-->
