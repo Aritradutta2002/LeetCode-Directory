@@ -5,11 +5,11 @@ class Solution {
             set.add(nums[i]);
         }
 
-        for (int i = 1; i <= 101; i++) {
-            if (!set.contains(i * k)) {
-                return i * k;
+        for (int multiple = k; multiple <= 100; multiple += k) {
+            if (!set.contains(multiple)) {
+                return multiple;
             }
         }
-        return -1;
+        return (100 / k + 1) * k;
     }
 }
