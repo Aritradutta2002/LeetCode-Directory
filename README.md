@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1980-find-unique-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2170-minimum-operations-to-make-the-array-alternating/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2170-minimum-operations-to-make-the-array-alternating/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2573-find-the-string-with-lcp/) | Hard |
