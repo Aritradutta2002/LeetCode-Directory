@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0322-coin-change/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0396-rotate-function](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0396-rotate-function/) | Medium |
+| [0502-ipo](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0502-ipo/) | Hard |
 | [0542-01-matrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0542-01-matrix/) | Medium |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0599-minimum-index-sum-of-two-lists/) | Easy |
 | [0628-maximum-product-of-three-numbers](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
@@ -109,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0011-container-with-most-water/) | Medium |
+| [0502-ipo](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0502-ipo/) | Hard |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
@@ -364,6 +366,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0075-sort-colors](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0075-sort-colors/) | Medium |
 | [0218-the-skyline-problem](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0218-the-skyline-problem/) | Hard |
+| [0502-ipo](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0502-ipo/) | Hard |
 | [0628-maximum-product-of-three-numbers](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0761-special-binary-string](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0761-special-binary-string/) | Hard |
 | [1331-rank-transform-of-an-array](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/1331-rank-transform-of-an-array/) | Easy |
@@ -449,6 +452,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0218-the-skyline-problem](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0218-the-skyline-problem/) | Hard |
+| [0502-ipo](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0502-ipo/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
