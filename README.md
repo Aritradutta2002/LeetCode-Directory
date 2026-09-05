@@ -92,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3546-equal-sum-grid-partition-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3643-flip-square-submatrix-vertically](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
@@ -163,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3546-equal-sum-grid-partition-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Bit Manipulation
@@ -171,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0260-single-number-iii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0260-single-number-iii/) | Medium |
 | [0342-power-of-four](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/0342-power-of-four/) | Easy |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -228,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3120-count-the-number-of-special-characters-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3488-closest-equal-element-queries](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3488-closest-equal-element-queries/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3718-smallest-missing-multiple-of-k/) | Easy |
 | [3731-find-missing-elements](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3731-find-missing-elements/) | Easy |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
@@ -350,6 +354,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2685-count-the-number-of-complete-components](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2685-count-the-number-of-complete-components/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/Aritradutta2002/LeetCode-Directory/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
